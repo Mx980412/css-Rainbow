@@ -6,14 +6,18 @@
 body {
   background: white;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-top: 20px;
+}
 .rainbow {
   height: 200px;
   overflow: hidden;
-  margin-top: 20px;
 }
 .rainbow div {
   overflow: hidden;
-  margin: 0 auto;
 }
 .rainbow > div {
   width: 400px;
